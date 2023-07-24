@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #19a1ae;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.card-container{
+    width: 350px;
+    height: 374px;
+    background: #FFF;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+    display: inline-block;
+}
+.upper-container{
+    height: 150px;
+    background-image: url(../solution/images/bg-pattern-card.svg);
+}
+.lower-container{
+    height: 280px;
+    background:#FFF;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+.image-container{
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(125px,100px);
+}
+.image-container img{
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.lower-container h3 h4{
+    box-sizing: border-box;
+    line-height: .6;
+    font-weight: lighter;
+    padding: 20px;
+}
+.lower-container h4{
+    color: #4a4450;
+    opacity: .6;
+    font-weight: bold;
+}
+.lower-container p{
+    font-size: 16px;
+    color: #0989B4;
+    margin-bottom: 30px;
+}
+.lower-container a{
+    padding: 10px 15px;
+    background: #0989B4;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+}
+.lower-container a:hover{
+    background: transparent;
+    color: #0989B4;
+    border: 2px solid #0989B4;
+}

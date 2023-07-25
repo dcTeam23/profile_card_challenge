@@ -60,11 +60,11 @@ body{
     margin-bottom: 30px;
 }
 .lower-container a{
-    padding: 10px 15px;
+    padding: 8% 5px;
     background: #0989B4;
     border: none;
     color: white;
-    border-radius: 20px;
+    border-radius: 8px;
     font-size: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -73,5 +73,5 @@ body{
 .lower-container a:hover{
     background: transparent;
     color: #0989B4;
-    border: 2px solid #0989B4;
+    border: 1px solid #0989B4;
 }

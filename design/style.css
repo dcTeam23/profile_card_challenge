@@ -1,0 +1,141 @@
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --verydark-desaturatedblue: hsl(229, 23%, 23%);
+    --darkgrayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background: var(--dark-cyan); 
+}
+
+.card-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    width: 350px;
+    height: 374px;
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow:  0px 50px 100px -20px rgba(8, 70, 94, 0.50);
+    overflow: hidden;
+}
+
+.profile-picture{
+    display: flex;
+    justify-content: center; /* Alinhamento horizontal */
+    align-items: center; 
+    margin-top: -45px;
+}
+
+.profile-picture img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: solid 5px white;
+}
+
+
+.informations {
+    text-align: center;
+}
+
+.informations h3 {
+    font-size: 18px;
+    color: var(--verydark-desaturatedblue);
+    padding-right: 23px;
+    padding-top: 20px;
+}
+
+.informations span {
+    font-size: 18px;
+    color: var(--dark-gray);
+    padding-left: 210px;
+    padding-right: 110px;
+    position: relative;
+    bottom: 28px;
+}
+
+.informations p {
+    font-size: 14px;
+    color: var(--dark-gray);
+    position: relative;
+    bottom: 20px;
+}
+
+.social-media {
+    border: solid #E8E9EC;;
+    border-width: 2px 0 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around ;
+    align-items: center;
+    height: 75px;
+}
+
+.social-media h3 {
+    color: var(--verydark-desaturatedblue);
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.social-media p {
+    color: var(--dark-gray);
+    font-size: 10px;
+}
+
+/* .lower-container{
+    height: 280px;
+    background:#FFF;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.lower-container h3 h4{
+    box-sizing: border-box;
+    line-height: .6;
+    font-weight: lighter;
+}
+.lower-container h4{
+    color: #7F00FF;
+    opacity: .6;
+    font-weight: bold;
+}
+.lower-container p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.lower-container a{
+    padding: 12px 20px;
+    background: #7F00FF;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+}
+.lower-container a:hover{
+    background: transparent;
+    color: #7F00FF;
+    border: 2px solid #7F00FF;
+} */

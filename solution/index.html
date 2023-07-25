@@ -1,27 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <!-- displays site properly based on user's device -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Profile card component</title>
-</head>
-<body>
-  <!-- write your html structure here -->
-  Eric Smith
-  26
-  Lodon
+    <title>Profile card component</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&display=swap");
+    * {
+      box-sizing: border-box;
+    }
 
-  8K
-  Github
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Kumbh Sans", sans-serif;
+      background-image: linear-gradient(
+        hsl(185, 75%, 39%),
+        hsl(229, 23%, 23%),
+        hsl(227, 10%, 46%)
+      );
+    }
 
-  3K
-  FreeCodeCamp
+    .card {
+      width: 400px;
+      height: 500px;
+      margin: 100px auto;
+      border-radius: 30px;
+      background-color: #fff;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
 
-  1.2K
-  Duolingo
-</body>
+    .background-top {
+      height: 100px;
+      background-image: url(image.svg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .background-top > img {
+      width: 100%;
+      border-radius: 30px 30px 0 0;
+    }
+
+    .background-bottom {
+      height: 300px;
+      background-color: #fff;
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+
+      margin: 20px auto;
+    }
+
+    .profile-image > img {
+      width: 100%;
+      height: 100%;
+      border: 5px solid white;
+      border-radius: 50%;
+    }
+
+    .name-age-city {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .name-and-age {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .name-and-age > h2 {
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    .city {
+      text-align: center;
+    }
+
+    .points {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .points > h3 {
+      font-weight: bold;
+    }
+
+    #github,
+    #freecodecamp,
+    #duolingo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <!-- write your html structure here -->
+    <div class="card">
+      <div class="background-top">
+        <img src="/solution/images/bg-pattern-card.svg" alt="Imagem de fundo" />
+      </div>
+      <div class="background-bottom">
+        <div class="profile-image">
+          <img src="/solution/images/image-victor.jpg" alt="Foto de perfil" />
+        </div>
+        <div class="name-age-city">
+          <div class="name-and-age">
+            <h2>Eric Smith</h2>
+            <p>26</p>
+          </div>
+          <div class="city">
+            <p>São Paulo</p>
+          </div>
+        </div>
+        <hr />
+        <div class="points">
+          <div id="github">
+            <h3>8k</h3>
+            <p>Github</p>
+          </div>
+          <div id="freecodecamp">
+            <h3>3K</h3>
+            <p>FreeCodeCamp</p>
+          </div>
+          <div id="duolingo">
+            <h3>1.2K</h3>
+            <p>Duolingo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

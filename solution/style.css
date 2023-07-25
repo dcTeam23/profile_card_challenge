@@ -76,16 +76,16 @@
     position: absolute;
     top: 310px;
     left: 47px;
-    text-align: center;
+    
 }
 
-tbody td {
+.sites td {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 15px;
     color: hsl(0, 0%, 59%);
 }
 
-thead th {
+.amount th {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 20px;
     

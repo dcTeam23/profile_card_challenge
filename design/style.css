@@ -19,14 +19,14 @@ body{
     display: inline-block;
 }
 .upper-container{
-    height: 150px;
+    height: 160px;
     background-image: url(../solution/images/bg-pattern-card.svg);
 }
 .lower-container{
-    height: 280px;
+    height: 160px;
     background:#FFF;
-    padding: 20px;
-    padding-top: 40px;
+    padding: 15px;
+    padding-top: 15px;
     text-align: center;
 }
 .image-container{
@@ -47,7 +47,7 @@ body{
     box-sizing: border-box;
     line-height: .6;
     font-weight: lighter;
-    padding: 20px;
+    padding: 10px;
 }
 .lower-container h4{
     color: #4a4450;
@@ -60,12 +60,12 @@ body{
     margin-bottom: 30px;
 }
 .lower-container a{
-    padding: 8% 5px;
+    padding: 5% 5px;
     background: #0989B4;
     border: none;
     color: white;
-    border-radius: 8px;
-    font-size: 10px;
+    border-radius: 5px;
+    font-size: 15px;
     text-decoration: none;
     font-weight: bold;
     transition: all .3s ease-in;

@@ -1,0 +1,117 @@
+* {margin:0; padding:0; list-style:none; vertical-align:baseline;}
+
+* {
+    max-width: 1600px;
+    max-height: 800px;
+    
+}
+
+.back-card {
+    width: 1440px;
+    height: 720px;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(/solution/images/bg-pattern-bottom.svg);
+    margin: 0 auto;
+    position: fixed;
+}
+
+.card {
+ width: 350px;
+ height: 374px;
+ margin: 173px auto auto 545px;
+ border-radius: 30px;
+ position: relative;
+ background-color: #E8E9EC;
+}
+
+.image img {
+    width: 96px;
+    height: 96px;
+    border-radius: 100px;
+    background-size: cover;
+    border: 5px solid white;
+    position: absolute;
+    top: 92px;
+    left: 127px;
+}
+
+.topo {
+    width: 350px;
+    height: 140px;
+    border-radius: 30px 30px 0 0;
+    position: relative;
+    background-image: url(/solution/images/bg-pattern-card.svg);
+
+}
+
+.name {
+    width: 190px;
+    height: 23px;
+    position: absolute;
+    top: 212px;
+    left: 94px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+.city {
+    /* London */
+    position: absolute;
+    height: 14px;
+    left: 42.86%;
+    right: 42.86%;
+    top: calc(50% - 14px/2 + 63px);
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    color: #6B7082;
+    }
+
+.text {
+    width: 249px;
+    height: 42px;
+    position: absolute;
+    top: 310px;
+    left: 47px;
+    
+}
+
+.sites td {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+}
+
+.amount th {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 20px;
+    
+}
+
+.age {
+position: absolute;
+height: 18px;
+left: 83.33%;
+right: 0.37%;
+top: calc(50% - 18px/2 - 4.5px);
+font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #6B7082;
+}
+
+/* Rectangle */
+.rectangle {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 76.2%;
+bottom: 23.53%;
+background: #171d1821;
+}

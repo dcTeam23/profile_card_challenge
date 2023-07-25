@@ -10,10 +10,9 @@
     width: 1440px;
     height: 720px;
     background-color: hsl(185, 75%, 39%);
-    background-image: url(/solution/images/bg-pattern-bottom.svg));
+    background-image: url(/solution/images/bg-pattern-bottom.svg);
     margin: 0 auto;
     position: fixed;
-    
 }
 
 .card {

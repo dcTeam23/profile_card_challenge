@@ -28,17 +28,8 @@
 ### Screenshot
 
 ![](./solution/screenshot.jpg)
+![2023-07-25 (2)](https://github.com/RodrigoNet0/profile_card_challenge/assets/134714036/21d32078-00a2-4aea-8658-9242d8461041)
 
-Add a screenshot of your solution here.  
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://github.com/your-repo-name)
-- Live Site URL: [Add live site URL here](https://your-repo-name.github.io)
 
 ## My process
 
@@ -48,12 +39,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
+  
 ### What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
@@ -93,14 +79,13 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- FreeCodeCamp - [@yourusername](https://freecodecamp.org/profile/yourusername)
-- Github - [@yourusername](https://github.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Rodrigo Neto](https://www.your-site.com)
+- FreeCodeCamp - [Rodrigoneto](https://www.freecodecamp.org/portuguese/Rodrigoneto)
+- Github - [RodrigoNet0](https://github.com/RodrigoNet0)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Agradecer ao meu amigo, João victor farias (vulgo JV) pela paciência e ajuda em meu projeto.
+Aos demais amigos, minha gratidão.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+

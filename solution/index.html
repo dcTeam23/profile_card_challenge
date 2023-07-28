@@ -55,7 +55,6 @@
       box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.50);
 }
 .namestats {
-     color: #2E3349;
      text-align: center;
      font-family: Kumbh Sans;
      font-size: 18px;
@@ -74,17 +73,14 @@
    }
 
 .redes {
-    top: 310px;
-    left: 47px;
-    position: absolute;
-    color: #6B7082;
-    text-align: center;
-    font-family: Kumbh Sans;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.5px;
+  color: hsl(228, 10%, 47%);
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
    }  
    /** Estilo foto redonda com borda "branca" **/
 .foto {
@@ -95,7 +91,6 @@
       height: 86px;
       border-radius: 96px;
       border: 5px solid #FFF;
-      background:lightgray 50% / cover no-repeat;
     }
 .profiletop {
       position: absolute;
@@ -138,13 +133,14 @@
     line-height: normal;
    }
 .socialblock {
-    left: 50%;
-    top: 50%;
-    margin-left: -175px;
-    margin-top: 88px;
+    display: flex;
+    top: 310px;
+    left: 47px;
+    justify-content: space-between;
     position: absolute;       
     width: 249px;
     height: 42px;
+    justify-content: space-between;
     flex-shrink: 0;
    }
 .social1 { 
@@ -240,9 +236,9 @@
   <div class="profilecard">
     <div class="profiletop">
     </div>
-    <div><img class="foto" src="images/image-victor.jpg"></div> 
+    <div><img class="foto" src="images/image-victor.jpg" alt="Foto do perfil"></div> 
    <div class="nomidade">
-        <div class="namestats">Eric Smith</div><div class="idade">26</div>
+        <div class="namestats vddb">Eric Smith</div><div class="idade">26</div>
       </div>
       <div class="cidade">
         London
@@ -250,15 +246,15 @@
          <div class="linha"></div>
       <div class="socialblock">
         <div class="social1">
-        <div class="namestats">8K</div>
+        <div class="namestats vddb">8K</div>
         <div class="redes">Github</div>
         </div>
         <div class="social2">
-          <div class="namestats">3K</div>
+          <div class="namestats vddb">3K</div>
           <div class="redes">FreeCodeCamp</div>
         </div>
         <div class="social3">
-          <div class="namestats">1.2K</div>
+          <div class="namestats vddb">1.2K</div>
           <div class="redes">Duolingo</div>
         </div>
       </div>  

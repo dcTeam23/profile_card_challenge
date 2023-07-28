@@ -28,7 +28,8 @@
 ### Screenshot
 
 ![](./solution/screenshot.jpg)
-![2023-07-25 (2)](https://github.com/RodrigoNet0/profile_card_challenge/assets/134714036/21d32078-00a2-4aea-8658-9242d8461041)
+![2023-07-27 (2)](https://github.com/RodrigoNet0/profile_card_challenge/assets/134714036/a2058941-1d41-4bff-82a4-3ea1d3de2175)
+
 
 
 ## My process

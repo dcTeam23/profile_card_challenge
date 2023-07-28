@@ -1,4 +1,5 @@
 # Profile card component solution
+*"Nós nunca descobriremos o que vem depois da escolha se não tomarmos uma decisão. Por isso, entenda os seus medos, mas jamais deixe que eles sufoquem os seus sonhos."*
 
 > Please, complete this file with [CONTRIBUTING.md](./CONTRIBUTING.md) instructions
 > Click here to access [solution file](./solution) 

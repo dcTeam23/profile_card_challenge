@@ -87,13 +87,24 @@ body{
     margin-bottom: 25px;
 }
 .bg{
-    width: 400px;
-height: 700px;
-transform: rotate(-135deg);
-flex-shrink: 0;
+width: 200px;
+height: 300px;
+/*transform: rotate(-135deg);*/
+/*flex-shrink: 0;*/
+position: absolute;
+top: 40px;
+right: -30px;
+left: 50%;
+
+
 }
 .bg-top{
-    padding-right: 0%;
-    margin-left: 
-    margin-top: 
+    width: 450px;
+    height: 600px;
+    transform: rotate(-135deg);
+    flex-shrink: 0;
+   /*padding-right: 600px;*/
+   position: absolute;
+   top: -50px;
+
 }

@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #19a1ae;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.card-container{
+    width: 350px;
+    height: 374px;
+    background: #FFF;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+    display: inline-block;
+}
+.upper-container{
+    height: 140px;
+    background-image: url(../solution/images/bg-pattern-card.svg);
+    padding-bottom: 30px;
+}
+.lower-container{
+    height: 160px;
+    background:#FFF;
+    padding: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+.image-container{
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 8px;
+    transform: translate(125px,100px);
+}
+.image-container img{
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.lower-container h3 h4{
+    box-sizing: border-box;
+    line-height: .6;
+    font-weight: lighter;
+    padding: 10px;
+}
+.lower-container h4{
+    color: #4a4450;
+    opacity: .6;
+    font-weight: bold;
+}
+.lower-container p{
+    font-size: 16px;
+    color: #0989B4;
+    margin-bottom: 30px;
+}
+.lower-container a{
+    padding: 5% 5px;
+    
+    border: none;
+    color: rgb(170, 168, 190);
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+}
+    
+.social-links{
+    border: solid #beced3;
+    border-width: 2px 0 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around ;
+    align-items: center;
+    height: 75px;
+    margin-top:-10px;
+
+}
+.social-links a{
+    margin-bottom: 25px;
+}
+.bg{
+width: 200px;
+height: 300px;
+/*transform: rotate(-135deg);*/
+/*flex-shrink: 0;*/
+position: absolute;
+top: 40px;
+right: -30px;
+left: 50%;
+
+
+}
+.bg-top{
+    width: 450px;
+    height: 600px;
+    transform: rotate(-135deg);
+    flex-shrink: 0;
+   /*padding-right: 600px;*/
+   position: absolute;
+   top: -50px;
+
+}

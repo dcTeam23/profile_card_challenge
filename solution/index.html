@@ -21,6 +21,7 @@
       background: hsl(185, 75%, 39%);
       overflow: hidden;
     }
+
 a,a:visited,a:hover,a:active,a:link { 
   text-decoration: none;
   color: inherit;
@@ -64,9 +65,10 @@ a,a:visited,a:hover,a:active,a:link {
       background-image: url(images/bg-pattern-card.svg); 
       background-size: cover; 
       background-repeat: no-repeat;
+  
 }
    /** Estilo foto redonda com borda "branca" **/
-   .foto {
+.foto {
     top: 92px;
     display: flex;
     justify-content: center;
@@ -152,7 +154,38 @@ a,a:visited,a:hover,a:active,a:link {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.5px;
-   }  
+   }
+  
+.ovaltop { 
+    position: relative;
+    left: 0;
+    top: 0;    
+    flex-shrink: 0;
+    margin-top: -712px;
+    margin-left: -487px;
+    width: 978px;
+    height: 976px;
+    z-index: -1;
+    background-image: url(images/bg-pattern-top.svg); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+} 
+
+.ovalbottom { 
+      position: relative;
+      right: 0;
+      bottom: 0;
+      flex-shrink: 0;
+      margin-right: -432px;
+      margin-bottom: -853px;
+      width: 978px;
+      height: 976px;
+      z-index: -1;
+      background-image: url(images/bg-pattern-bottom.svg); 
+      background-size: contain; 
+      background-repeat: no-repeat;
+}
+*/
 
 @media screen and (max-width: 375px) {
 .profilecard {
@@ -182,12 +215,14 @@ a,a:visited,a:hover,a:active,a:link {
   
   <body>
   <!-- write your html structure here -->
+  <div class="ovaltop"></div>
+
   <div class="profilecard">
     <div class="profiletop"></div>
-    <div class="foto"></div>
-    <div class="nomidade">
-      <div class="namestats"><a href="http://instagram.com/rodolfobr" target="_blank">Rodolfo Bertini</a></div>
-      <div class="idade">40</div>
+      <div class="foto"></div>
+      <div class="nomidade">
+        <div class="namestats"><a href="http://instagram.com/rodolfobr" target="_blank">Rodolfo Bertini</a></div>
+        <div class="idade">40</div>
     </div>
     <div class="cidade">Fortaleza</div>
     <div class="linha"></div>
@@ -206,6 +241,8 @@ a,a:visited,a:hover,a:active,a:link {
       </div>
     </div>
   </div>
+
+  <div class="ovalbottom"></div>
 
 </body>
 

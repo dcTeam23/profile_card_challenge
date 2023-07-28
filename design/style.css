@@ -18,16 +18,33 @@ body {
 }   
 
 
-.bg-top {
-    margin-left: -5%;
-    margin-top: -22%;
-}
+    .bg { 
 
-.bg-bottom {
-    
-    margin-left: 50%;
-    margin-top: -5%;
-}
+        display: flex;
+         position: absolute;
+         width: 50%;
+         height: 50%;
+         flex-direction: row;
+         justify-content: flex-end;
+         align-items: flex-end;
+         padding: 0px;
+         margin: 0px;
+     
+     }
+     
+     
+     .bg-bottom {
+         display: flex;
+         position: absolute;
+         width: 50%;
+         height: 50%;
+         flex-direction: row;
+         justify-content: flex-end;
+         align-items: flex-end;
+         transform: translate(100%, 200%);
+         padding: 0;
+         margin: 0;
+     }
 
 
 .card-container{
@@ -105,11 +122,12 @@ body {
 .social-media p {
     color: var(--dark-gray);
     font-size: 10px;
-}
+}   
+
 
 
 footer {
-    bottom: 20px;
+    bottom: 40px;
     position: fixed;
     width: 100%;
     text-align: center;

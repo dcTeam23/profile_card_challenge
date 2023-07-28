@@ -86,7 +86,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-Agradecer ao meu amigo, João victor farias (vulgo JV) pela paciência e ajuda em meu projeto.
+Agradecer ao meu amigo, João victor farias (vulgo JV) e Daniel pinheiro (DaniP.dev) pela paciência e ajuda em meu projeto.
 Aos demais amigos, minha gratidão.
 
 

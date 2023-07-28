@@ -20,7 +20,12 @@
       margin: 0;
       background: hsl(185, 75%, 39%);
       overflow: hidden;
-    } 
+    }
+a,a:visited,a:hover,a:active,a:link { 
+  text-decoration: none;
+  color: inherit;
+}
+
 /* cores */
     .namestats { 
       color: hsl(229, 23%, 23%);
@@ -28,16 +33,12 @@
     .idade,.cidade,.redes {
       color: hsl(227, 10%, 46%);
     }
-    .dg {
-      color: hsl(0, 0%, 59%);
-    }
     .profiletop {
       background: hsl(183, 62%, 54%);
     }
     .linha { 
       background: hsl(228, 9%, 92%);
     }
-
 
 .profilecard {
       position: absolute;
@@ -75,10 +76,13 @@
     height: 86px;
     border-radius: 96px;
     border: 5px solid #FFF;
-    background-image: url(images/perfillinkedin.jpeg); 
+    background-image: url(images/perfillinkedin150x150.jpg); 
     background-size: cover; 
     background-repeat: no-repeat;
 }
+.foto:hover {
+    animation: giragira 5000ms infinite forwards;
+  }
 .nomidade {
     top: 212px;
     display: flex;
@@ -150,95 +154,30 @@
   letter-spacing: 1.5px;
    }  
 
-/* tentando por os poligonos ovais no background */
-.bordaprofiletop {
-      left: 50%;
-      top: 50%;
-      margin-left: -175px;
-      margin-top: -187px;
-      position: absolute;
-      width: 350px;
-      height: 374px;
-      flex-shrink: 0;
-      border-radius: 15px;
-    }
-.bgprofiletop {
-      left: 50%;
-      top: 50%;
-      margin-left: -186px;
-      margin-top: -191px;
-      position: absolute;
-      width: 372px;
-      height: 148px;
-      flex-shrink: 0;
-   }
-.oval1 { 
-      display: flex;
-      position: relative;
-      z-index: 3;
-      border-radius: 50%;
-      width: 29.669px;
-      height: 29.6px;
-      opacity: 0.5;
-      background: linear-gradient(180deg, rgba(9, 137, 180, 0.00) 0%, #53FFEE 99.94%);
-    }
-.oval2 { 
-      display: flex;
-      position: relative;
-      z-index: 4;
-      border-radius: 50%;
-      width: 29.6px;
-      height: 29.669px;
-      opacity: 0.5;
-      background: linear-gradient(90deg, rgba(9, 137, 180, 0.00) 0%, #53FFEE 99.94%); 
-    }
-.oval3 {
-      display: flex;
-      position: relative;
-      z-index: 3;
-      border-radius: 50%;
-      width: 29.669px;
-      height: 29.6px;
-      opacity: 0.5;
-      background: linear-gradient(180deg, rgba(9, 137, 180, 0.00) 0%, #53FFEE 99.94%); 
-    }
-.oval4 {
-      display: flex;
-      position: relative;
-      z-index: 3; 
-      border-radius: 50%;
-      width: 29.6px;
-      height: 29.669px;
-      opacity: 0.5;
-      background: linear-gradient(270deg, rgba(9, 137, 180, 0.00) 0%, #53FFEE 99.94%); 
-    }
-.ovalG1 { 
-      display: block;
-      position: relative;
-      width: 978px;
-      height: 976px;
-      z-index: 3;
-      border-radius: 978px;
-      opacity: 0.5;
-      background: linear-gradient(180deg, rgba(9, 137, 180, 0.00) 0%, #53FFEE 99.94%);
-    }
-.ovalG2 { 
-      display: block;
-      position: relative;
-      z-index: 3;
-      border-radius: 50%;
-      width: 978px;
-      height: 976px;
-      opacity: 0.5;
-      background: linear-gradient(-135deg, hsl(195, 91%, 37%), hsl(174, 100%, 66%) 99.94%);
-    }
-
-
 @media screen and (max-width: 375px) {
 .profilecard {
       width: 326px;
+      margin-left: -163px;
   }
-}  
+} 
+
+@keyframes giragira {
+    0% {
+      transform: scale(90%);
+    }
+    25%{
+      transform: scale(110%);
+    }
+    50% {
+      transform: scale(90%) rotate(360deg);
+    }
+    75% {
+      transform: scale(110%) rotate(360deg);
+    }
+    100% {
+      transform: scale(90%) rotate(360deg);
+    }
+  }
   </style>
   
   <body>
@@ -247,7 +186,7 @@
     <div class="profiletop"></div>
     <div class="foto"></div>
     <div class="nomidade">
-      <div class="namestats">Rodolfo Bertini</div>
+      <div class="namestats"><a href="http://instagram.com/rodolfobr" target="_blank">Rodolfo Bertini</a></div>
       <div class="idade">40</div>
     </div>
     <div class="cidade">Fortaleza</div>
@@ -255,15 +194,15 @@
     <div class="socialblock">
       <div class="social">
         <div class="namestats">116</div>
-        <div class="redes">Github</div>
+        <div class="redes"><a href="https://github.com/rodolfobertini" target="_blank">Github</a></div>
       </div>
       <div class="social">
         <div class="namestats">286</div>
-        <div class="redes">FreeCodeCamp</div>
+        <div class="redes"><a href="https://www.freecodecamp.org/RodolfoBertini" target="_blank">FreeCodeCamp</a></div>
       </div>
       <div class="social">
         <div class="namestats">1833</div>
-        <div class="redes">Duolingo</div>
+        <div class="redes"><a href="https://www.duolingo.com/profile/RodolfoBR" target="_blank">Duolingo</a></div>
       </div>
     </div>
   </div>
@@ -271,4 +210,3 @@
 </body>
 
 </html>
-<!--  <div class="oval1"></div><div class="oval2"></div><div class="oval3"></div><div class="oval4"></div><div class="oval1"></div><div class="oval2"></div><div class="oval3"></div><div class="oval4"></div> -->

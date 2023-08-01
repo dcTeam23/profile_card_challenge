@@ -4,5 +4,14 @@
 }
 
 .card {
-    
+    width: 15%;
+    height: 15%;
+    background: blue;
+    border-radius: 10px;
+    margin: 10%;
+}
+
+.container {
+    padding: 2px 16px;
+    display: flex;
 }

@@ -1,17 +1,210 @@
+@import url('https://fonts.cdnfonts.com/css/kumbh-sans');
+
 * {
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --verydark-desaturatedblue: hsl(229, 23%, 23%);
+    --darkgrayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+
+body {
+    background: #19A1AE;
 }
 
 .card {
-    width: 15%;
-    height: 15%;
-    background: blue;
-    border-radius: 10px;
-    margin: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 374px;
+    background: #FFF;
+    border-radius: 15px;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.50);
+    overflow: hidden;
 }
 
-.container {
-    padding: 2px 16px;
-    display: flex;
+.img-fundo {
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
 }
+
+.imgbx {
+    position: absolute;
+    left: 120px;
+    overflow: hidden;
+    display: flex;
+    padding-left: 0px;
+    width: 96px;
+    height: 96px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    border-radius: 96px;
+    border: 5px solid #FFF;
+    justify-content: center;
+    bottom: 180px;
+}
+
+.conteiner {
+    text-align: center;
+}
+
+.conteiner h2 {
+    font-size: 18px;
+    color: var(--verydark-desaturatedblue);
+    padding-right: 23px;
+    padding-top: 20px;
+}
+
+.conteiner span {
+    font-size: 18px;
+    color: var(--dark-gray);
+    padding-left: 210px;
+    padding-right: 110px;
+    position: relative;
+    bottom: 28px;
+}
+
+.conteiner p {
+    font-size: 14px;
+    color: var(--dark-gray);
+    position: relative;
+    bottom: 20px;
+}
+
+.social-media {
+    border: solid #E8E9EC;
+    ;
+    border-width: 2px 0 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+}
+
+.social-media h3 {
+    color: var(--verydark-desaturatedblue);
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.social-media p {
+    color: var(--dark-gray);
+    font-size: 10px;
+}
+
+/*-------------------
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --verydark-desaturatedblue: hsl(229, 23%, 23%);
+    --darkgrayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: var(--dark-cyan); 
+}   
+
+
+     .bg { 
+
+        display: flex;
+         position: absolute;
+         width: 50%;
+         height: 50%;
+         flex-direction: row;
+         justify-content: flex-end;
+         align-items: flex-end;
+         padding: 0px;
+         margin: 0px;
+     
+     }
+     
+     
+     .bg-bottom {
+         display: flex;
+         position: absolute;
+         width: 50%;
+         height: 50%;
+         flex-direction: row;
+         justify-content: flex-end;
+         align-items: flex-end;
+         transform: translate(100%, 200%);
+         padding: 0;
+         margin: 0;
+     } 
+
+
+     .card-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);  
+        width: 350px;
+        height: 374px;
+        background: #FFF;
+        border-radius: 20px;
+        box-shadow:  0px 50px 100px -20px rgba(8, 70, 94, 0.50);
+        overflow: hidden;
+    }
+    
+    .profile-picture{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-top: -45px;
+    }
+    
+    .profile-picture img {
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        border: solid 5px white;
+    }
+    
+    
+    .informations {
+        text-align: center;
+    }
+    
+    .informations h3 {
+        font-size: 18px;
+        color: var(--verydark-desaturatedblue);
+        padding-right: 23px;
+        padding-top: 20px;
+    }
+    
+    .informations span {
+        font-size: 18px;
+        color: var(--dark-gray);
+        padding-left: 210px;
+        padding-right: 110px;
+        position: relative;
+        bottom: 28px;
+    }
+    
+    .informations p {
+        font-size: 14px;
+        color: var(--dark-gray);
+    ... (45 linhas)
+
+/*

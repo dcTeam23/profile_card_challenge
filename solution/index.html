@@ -7,10 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles.css" rel="stylesheet" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/" >
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   <title>Profile card component</title>
 </head>
-
+<div class="bg">
+  <img src="images/bg-pattern-top.svg" alt="top">
+  <img src="images/bg-pattern-bottom.svg" alt="ball-bottom" id="bottom">
+ </div>
 <body>
   <div class="card">
     <div class="img-fundo">
@@ -19,24 +25,24 @@
     <div class="imgbx">
       <img src="images/image-victor.jpg">
     </div>
-    <div class="conteiner">
-      <h3>Eric Smith</h2>
-      <span>26</span>
-      <p>London</p>
-      <section class="social-media">
-        <section class="github">
+    <section class="conteiner">
+      <h3 id="nome">Eric Smith</h2>
+        <span id="idade">26</span>
+        <p>London</p>
+        <section class="social-media">
+          <section class="github">
             <h3>8K</h3>
             <p>GitHub</p>
-        </section>
-        <section class="freecodecamp">
+          </section>
+          <section class="freecodecamp">
             <h3>3K</h3>
             <p>FreeCodeCamp</p>
-        </section>
-        <section class="duolingo">
+          </section>
+          <section class="duolingo">
             <h3>1.2K</h3>
             <p>Duolingo</p>
+          </section>
         </section>
-    </div>
   </div>
 </body>
 

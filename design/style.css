@@ -14,79 +14,54 @@
 }
 
 body {
-    background: var(--dark-cyan); 
-}   
+    background: var(--dark-cyan);
+}
 
-.flex--center {
-    justify-content: center;
-    align-items: center;
-}
-.flex--column {
-    flex-direction: column;
-}
-.flex {
+.bg {
+
     display: flex;
-}
-.main-page {
-    position: relative;
-    height: 100%;
-}
-
-.svg-background {
-    width: 100%;
-    height: 100%;
-    z-index: -40;
-    bottom: 250;
-    padding-right: 200px;
     position: absolute;
+    width: 50%;
+    height: 50%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px;
+    margin: 0px;
+
 }
 
-    /* .bg { 
 
-        display: flex;
-         position: absolute;
-         width: 50%;
-         height: 50%;
-         flex-direction: row;
-         justify-content: flex-end;
-         align-items: flex-end;
-         padding: 0px;
-         margin: 0px;
-     
-     }
-     
-     
-     .bg-bottom {
-         display: flex;
-         position: absolute;
-         width: 50%;
-         height: 50%;
-         flex-direction: row;
-         justify-content: flex-end;
-         align-items: flex-end;
-         transform: translate(100%, 200%);
-         padding: 0;
-         margin: 0;
-     } */
+#bottom {
+    display: flex;
+    position: fixed;
+    height: 1440px;
+    width: 1440px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: 33%;
+    left: 50%;
 
+}
 
-.card-container{
+.card-container {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);  
+    transform: translate(-50%, -50%);
     width: 350px;
     height: 374px;
     background: #FFF;
     border-radius: 20px;
-    box-shadow:  0px 50px 100px -20px rgba(8, 70, 94, 0.50);
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.50);
     overflow: hidden;
 }
 
-.profile-picture{
+.profile-picture {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     margin-top: -45px;
 }
 
@@ -126,11 +101,12 @@ body {
 }
 
 .social-media {
-    border: solid #E8E9EC;;
+    border: solid #E8E9EC;
+    ;
     border-width: 2px 0 0 0;
     display: flex;
     text-align: center;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
     height: 75px;
 }
@@ -145,9 +121,7 @@ body {
 .social-media p {
     color: var(--dark-gray);
     font-size: 10px;
-}   
-
-
+}
 
 footer {
     bottom: 40px;
@@ -163,5 +137,5 @@ footer div a {
 }
 
 a:hover {
-    color: var(--darkgrayish-blue);
+    color: var(--darkgrayish-blue)
 }

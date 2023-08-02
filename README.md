@@ -27,18 +27,15 @@
 
 ### Screenshot
 
-![](./solution/screenshot.jpg)
+![image](https://github.com/Gustavo-S-Nascimento/profile_card_challenge/assets/74427958/e8f374cd-f7c7-443d-8245-54b0126c669a)
+<br>
+![image](https://github.com/Gustavo-S-Nascimento/profile_card_challenge/assets/74427958/15762cba-57eb-4a80-9c16-fccdaac71f9e)
 
-Add a screenshot of your solution here.  
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/your-repo-name)
-- Live Site URL: [Add live site URL here](https://your-repo-name.github.io)
+- Solution URL: [solution URL](https://github.com/Gustavo-S-Nascimento/profile_card_challenge)
+- Live Site URL: [live site](https://gustavo-s-nascimento.github.io/profile_card_challenge/solution/)
 
 ## My process
 
@@ -93,9 +90,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- FreeCodeCamp - [@yourusername](https://freecodecamp.org/profile/yourusername)
-- Github - [@yourusername](https://github.com/yourusername)
+- Website - [Gustavo](https://gustavo-s-nascimento.github.io)
+- FreeCodeCamp - [Gustavo-S](https://www.freecodecamp.org/Gustavo-S)
+- Github - [Gustavo-S-Nascimento](https://github.com/Gustavo-S-Nascimento)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 

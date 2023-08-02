@@ -34,7 +34,7 @@
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/Gustavo-S-Nascimento/profile_card_challenge)
+- Solution URL: [solution URL](https://github.com/Gustavo-S-Nascimento/profile_card_challenge/tree/challenge_solution/solution)
 - Live Site URL: [live site](https://gustavo-s-nascimento.github.io/profile_card_challenge/solution/)
 
 ## My process

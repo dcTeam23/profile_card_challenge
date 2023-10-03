@@ -1,8 +1,9 @@
 body {
     background: #19A1AE;
     position: relative;
-    width: 1440px;
-    height: 720px
+    max-width: 1440px;
+    min-widht: 375px;
+    height: 720px;
 }
 .retangulo{
     left: 50%;

@@ -3,6 +3,8 @@
 
 > Please, complete this file with [CONTRIBUTING.md](./CONTRIBUTING.md) instructions
 > Click here to access [solution file](./solution) 
+![image](https://github.com/jmtannus/profile_card_challenge/assets/61756665/3a3b5d42-9250-4998-8f94-0f05605078b7)
+
 
 ## Table of contents
 
@@ -38,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/your-repo-name)
-- Live Site URL: [Add live site URL here](https://your-repo-name.github.io)
+- [Solution URL](https://fantastic-bassoon-xp7grxqx64ghvv9p-5500.app.github.dev/solution/) 👈
+- [Live Site URL](https://jmtannus.github.io) 👈
 
 ## My process
 
@@ -94,9 +96,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- FreeCodeCamp - [@yourusername](https://freecodecamp.org/profile/yourusername)
-- Github - [@yourusername](https://github.com/yourusername)
+- Linkedin - [Janaina Tannus](https://www.linkedin.com/in/janaina-teixeira-58b32229/)
+- FreeCodeCamp - [@jmtannus](https://www.freecodecamp.org/jmtannus)
+- Github - [@jmtannus](https://github.com/jmtannus)
+- Blog - [Blog-DC23](https://jmtannus.github.io/Blog-DC23/)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 

@@ -3,8 +3,6 @@
 
 > Please, complete this file with [CONTRIBUTING.md](./CONTRIBUTING.md) instructions
 > Click here to access [solution file](./solution) 
-![image](https://github.com/jmtannus/profile_card_challenge/assets/61756665/3a3b5d42-9250-4998-8f94-0f05605078b7)
-
 
 ## Table of contents
 
@@ -28,15 +26,9 @@
 
 - Build out the project to the designs provided
 
-### Screenshot
+### [Screenshot](https://fantastic-bassoon-xp7grxqx64ghvv9p-5500.app.github.dev/solution/)
 
-![](./solution/screenshot.jpg)
-
-Add a screenshot of your solution here.  
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![image](https://github.com/jmtannus/profile_card_challenge/assets/61756665/3a3b5d42-9250-4998-8f94-0f05605078b7)
 
 ### Links
 
@@ -101,10 +93,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Github - [@jmtannus](https://github.com/jmtannus)
 - Blog - [Blog-DC23](https://jmtannus.github.io/Blog-DC23/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Agradeço ao meu tutor [@AbraaoAlves](https://github.com/AbraaoAlves), aos meus amigos [@RodrigoNet0](https://github.com/RodrigoNet0) , [@MansuetoPaiva](https://github.com/MansuetoPaiva), [@thiagobduarte](https://github.com/thiagobduarte) e [@rodolfobertini](https://github.com/rodolfobertini) por me ajudarem neste desafio. 👏 💙
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

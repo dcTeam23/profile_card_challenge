@@ -1,0 +1,220 @@
+body {
+  background: #19a1ae;
+  position: relative;
+  max-width: 1440px;
+  min-widht: 375px;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: hsl(185, 75%, 39%);
+  overflow: hidden;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ovaltop {
+  position: relative;
+  left: 0;
+  top: 0;
+  flex-shrink: 0;
+  margin-top: -712px;
+  margin-left: -487px;
+  width: 978px;
+  height: 976px;
+  z-index: -1;
+  background-image: url(images/bg-pattern-top.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.profilecard {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -175px;
+  margin-top: -187px;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 374px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5);
+  overflow: hidden;
+}
+
+.profiletop {
+  position: absolute;
+  width: 100%;
+  height: 140px;
+  flex-shrink: 0;
+  border-radius: 15px 15px 0px 0px;
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/** Estilo foto redonda com borda "branca" **/
+.foto {
+  top: 92px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  width: 86px;
+  height: 86px; //96px
+  background: #fff, lightgray 50% / cover no-repeat;
+  background-image: url(images/image-jana.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  border: 5px solid #fff;
+  border-radius: 96px;
+  padding: 127px, 127px, 234px, 140px;
+}
+
+.foto:hover {
+  animation: giragira 5000ms infinite forwards;
+}
+
+.nomePais {
+  top: 212px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  padding: 0px 0.5px 1px 9px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 16.5px;
+}
+
+.nomestatus {
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.país {
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cidade {
+  top: 243px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #6b7082;
+  text-align: center;
+}
+
+.linha {
+  top: 285px;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  flex-shrink: 0;
+}
+
+.socialblock {
+  display: flex;
+  top: 310px;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 80%;
+  height: 42px;
+}
+
+.social {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.redes {
+  font-family: Kumbh Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+
+.ovalbottom {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  flex-shrink: 0;
+  margin-right: -432px;
+  margin-bottom: -853px;
+  width: 978px;
+  height: 976px;
+  z-index: -1;
+  background-image: url(images/bg-pattern-bottom.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@keyframes giragira {
+  0% {
+    transform: scale(90%);
+  }
+
+  25% {
+    transform: scale(110%);
+  }
+
+  50% {
+    transform: scale(90%) rotate(360deg);
+  }
+
+  75% {
+    transform: scale(110%) rotate(360deg);
+  }
+
+  100% {
+    transform: scale(90%) rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .profilecard {
+    width: 326px;
+    margin-left: -163px;
+  }
+}
+
+/* cores */
+.namestats {
+  color: hsl(229, 23%, 23%);
+}
+.país.cidade,
+.redes {
+  color: hsl(227, 10%, 46%);
+}
+.profiletop {
+  background: hsl(183, 62%, 54%);
+}
+.linha {
+  background: hsl(228, 9%, 92%);
+}

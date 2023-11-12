@@ -1,4 +1,5 @@
 # Profile card component solution
+*"Nós nunca descobriremos o que vem depois da escolha se não tomarmos uma decisão. Por isso, entenda os seus medos, mas jamais deixe que eles sufoquem os seus sonhos."*
 
 > Please, complete this file with [CONTRIBUTING.md](./CONTRIBUTING.md) instructions
 > Click here to access [solution file](./solution) 
@@ -25,20 +26,14 @@
 
 - Build out the project to the designs provided
 
-### Screenshot
+### [Screenshot](https://fantastic-bassoon-xp7grxqx64ghvv9p-5500.app.github.dev/solution/)
 
-![](./solution/screenshot.jpg)
-
-Add a screenshot of your solution here.  
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![image](https://github.com/jmtannus/profile_card_challenge/assets/61756665/3a3b5d42-9250-4998-8f94-0f05605078b7)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/your-repo-name)
-- Live Site URL: [Add live site URL here](https://your-repo-name.github.io)
+- [Solution URL](https://fantastic-bassoon-xp7grxqx64ghvv9p-5500.app.github.dev/solution/) 👈
+- [Live Site URL](https://jmtannus.github.io) 👈
 
 ## My process
 
@@ -93,14 +88,13 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- FreeCodeCamp - [@yourusername](https://freecodecamp.org/profile/yourusername)
-- Github - [@yourusername](https://github.com/yourusername)
+- Linkedin - [Janaina Tannus](https://www.linkedin.com/in/janaina-teixeira-58b32229/)
+- FreeCodeCamp - [@jmtannus](https://www.freecodecamp.org/jmtannus)
+- Github - [@jmtannus](https://github.com/jmtannus)
+- Blog - [Blog-DC23](https://jmtannus.github.io/Blog-DC23/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Agradeço ao meu tutor [@AbraaoAlves](https://github.com/AbraaoAlves), aos meus amigos [@RodrigoNet0](https://github.com/RodrigoNet0) , [@MansuetoPaiva](https://github.com/MansuetoPaiva), [@thiagobduarte](https://github.com/thiagobduarte) e [@rodolfobertini](https://github.com/rodolfobertini) por me ajudarem neste desafio. 👏 💙
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
